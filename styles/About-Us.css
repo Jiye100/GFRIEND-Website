@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    font-family: 'STIX Two Math', serif;
+}
+
+.about-us-background{
+    background-image: url(../Image/gfriend-background2.jpeg);
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+}
+
+.about-us-description{
+    height: 410px;
+    background-color: black;
+    /* background-color: rgb(28, 28, 28); */
+    color: white;
+    padding: 70px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.about-us-title{
+    font-size: 130%;
+}
+
+.social-media-wrapper{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.social-media-wrapper > .media-icon{
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.media-icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.media-icon a:hover{
+    color: rgb(224, 198, 110);
+    transition: 0.5s;
+}
